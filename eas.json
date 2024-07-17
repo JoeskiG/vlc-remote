@@ -1,0 +1,25 @@
+{
+  "cli": {
+    "version": ">= 10.0.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "env": {
+        "ANDROID_SDK_ROOT": "/Users/user/Library/Android/sdk"
+      }
+    },
+    "production": {
+      "env": {
+        "ANDROID_SDK_ROOT": "/Users/user/Library/Android/sdk"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
